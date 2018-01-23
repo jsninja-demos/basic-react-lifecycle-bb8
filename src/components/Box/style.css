@@ -1,0 +1,8 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-image: url(../../static/box.png);
+  background-size: cover;
+  transition: left 350ms;
+  position: absolute;
+}
