@@ -89,7 +89,7 @@ export default class Battlefront extends React.Component {
           </div>
         )}
         <div className="gravity">
-          {boxes.ma(b => <Box key={b.id} {...b} />)}
+          {boxes.map(b => <Box key={b.id} {...b} />)}
           <BB8 box={boxNear} end={end} onCollision={this.endTheGame} />
           <div className="ground" />
         </div>
